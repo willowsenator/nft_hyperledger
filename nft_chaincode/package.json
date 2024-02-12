@@ -1,0 +1,16 @@
+{
+  "name": "nft_hyperledger",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:willowsenator/nft_hyperledger.git",
+  "license": "MIT",
+  "dependencies": {
+    "fabric-contract-api": "^2.5.4",
+    "fabric-shim": "^2.5.4",
+    "tslog": "^4.9.2"
+  },
+  "scripts": {
+    "chaincode:start": "fabric-chaincode-node server",
+    "start": "fabric-chaincode-node start"
+  }
+}
